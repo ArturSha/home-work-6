@@ -44,7 +44,7 @@ section {
 .section-div-title :nth-child(3) {
   font-size: 24px;
   line-height: 31px;
-  padding: 0 0 10px 5px;
+  padding: 0 0 10px 10px;
 }
 
 .section-div-intro {
@@ -145,13 +145,14 @@ a {
   text-decoration: none;
   color: #ffc33e;
 }
-p {
+.p-forgetpass {
   text-align: center;
 }
 .p-login {
   padding: 15% 10px 10px 10px;
   font-size: 13px;
   line-height: 16px;
+  text-align: center;
 }
 
 /* Большие проблелмы при зуме... хотелось бы знать как правильно это исправлять. */
