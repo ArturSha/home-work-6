@@ -1,0 +1,90 @@
+main {
+  font-family: "Inter", sans-serif;
+  background: rgb(229, 241, 255);
+  background: linear-gradient(
+    53deg,
+    rgba(229, 241, 255, 1) 0%,
+    rgba(240, 255, 229, 1) 100%
+  );
+}
+.div-logo {
+  padding: 185px 5px 38px;
+  text-align: center;
+}
+.span-logo_img {
+  max-width: 100%;
+}
+.span-logo_subtitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: #71ab8f;
+  padding: 0 5px 104px;
+}
+.container {
+  max-width: 772px;
+  margin: 0 auto 218px;
+  border: 1px solid #e4e4e4;
+  border-radius: 30px;
+  padding: 0 30px;
+}
+p:nth-of-type(1) {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #a4a4a4;
+  margin: 27px 0 10px;
+}
+p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.35);
+  margin-bottom: 53px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 25px 17px;
+  border: 1px solid #e4e4e4;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  /* width: 90%; */
+}
+.div-input_email:focus {
+  outline-color: #71ab8f;
+}
+
+.conteiner_button {
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  gap: 50px;
+  padding: 0 50px 50px 5px;
+}
+.conteiner_button button {
+  background: rgba(53, 143, 100, 0.1);
+  border: 1px solid rgba(53, 143, 100, 0.42);
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #358f64;
+  padding: 13px 25px;
+}
+.button_pic {
+  max-width: 100%;
+  padding-left: 10px;
+}
+.footer_logo {
+  max-width: 100%;
+}
+/* при нажатии имейл, нет всплывающего окна. при сжатии экрана кнопка Follow us улетает */
