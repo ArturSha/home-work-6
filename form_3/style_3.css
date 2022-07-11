@@ -1,0 +1,132 @@
+body {
+  font-family: Inter;
+  background-color: #1e1e1e;
+}
+main {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 5% 0;
+}
+/* left side */
+.section-startnow {
+  /* min-height: 812px; */
+  width: 375px;
+  background: url(./pictures/simon-moog-t-DlFD2QZcw-unsplash\ 1.png) no-repeat;
+  background-size: 100%;
+  border-radius: 32px;
+  color: #ffffff;
+}
+.container_title {
+  padding: 73px 30px 0;
+}
+.container_title h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.container_title p {
+  font-size: 20px;
+  line-height: 24px;
+  color: #f2f2f2;
+}
+.div-start_button {
+  display: flex;
+  justify-content: center;
+  padding: 482.5px 0 39.5px;
+}
+.div-start_button button {
+  background: #121212;
+  border-radius: 14px;
+  padding: 14px 85px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+}
+/* При сжатии экрана проблемы */
+/* right side */
+.section-form {
+  width: 375px;
+  border-radius: 32px;
+  background-image: url(./pictures/Vector.png), url(./pictures/Vector.png);
+  background-repeat: no-repeat;
+  background-position: 120% -10%, 0 100%;
+  background-color: #f3f3f3;
+  color: #989898;
+}
+.div-cont-form {
+  max-width: 318px;
+  margin: 0 28px 69px;
+}
+.div-cont-form h2 {
+  margin-top: 101px;
+  margin-bottom: 35px;
+  padding-left: 12px;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 41px;
+  color: #121212;
+}
+.div-cont_input {
+  display: flex;
+  flex-direction: column;
+}
+.div-cont_input input {
+  margin: 0 0 35px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 14.5px 0 14.5px 17px;
+  background: #dedede;
+  border-radius: 10px;
+  border: none;
+}
+span {
+  font-size: 11.9px;
+  font-weight: 700;
+  line-height: 15px;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+  color: #272730;
+}
+.div-signup_button {
+  display: flex;
+  justify-content: center;
+}
+._button-signup {
+  margin: 35px 0 23px;
+  background: #121212;
+  border-radius: 14px;
+  padding: 14px 85px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+}
+p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+.-p-margin {
+  margin: 35px 0 16px;
+}
+.div-cont_button_social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 123px;
+}
+.div-cont_button_social button {
+  background: #121212;
+  border-radius: 6px;
+  width: 64px;
+  height: 48px;
+  border: none;
+}
