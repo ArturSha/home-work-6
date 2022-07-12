@@ -10,13 +10,15 @@ main {
 }
 /* left side */
 .section-startnow {
-  /* min-height: 812px; */
   width: 375px;
   background: url(./pictures/simon-moog-t-DlFD2QZcw-unsplash\ 1.png) no-repeat;
   background-size: 100%;
   border-radius: 32px;
   color: #ffffff;
+  position: relative;
+  margin: 5px;
 }
+
 .container_title {
   padding: 73px 30px 0;
 }
@@ -33,7 +35,7 @@ main {
 .div-start_button {
   display: flex;
   justify-content: center;
-  padding: 482.5px 0 39.5px;
+  margin: 482.5px 0 39.5px;
 }
 .div-start_button button {
   background: #121212;

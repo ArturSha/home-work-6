@@ -5,7 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../reset.css" />
-    <title>Form 1</title>
+    <link rel="stylesheet" href="./style_4.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Poppins:wght@600&display=swap");
+    </style>
+    <title>Form4</title>
   </head>
-  <body></body>
+  <body>
+    <main class="main-container">
+      <h1>FORM</h1>
+      <div class="container__input">
+        <input class="input-username" type="text" placeholder="UserName" />
+        <input class="input-email" type="email" placeholder="E-mail" />
+        <!-- при автозаполнении пропадает бэкгроунд. -->
+        <input class="input-password" type="password" placeholder="Password" />
+        <select class="select-country" name="Country">
+          <option value="" disabled selected>Country</option>
+          <option value="italy">Italy</option>
+          <option value="germany">Germany</option>
+          <option value="france">France</option>
+        </select>
+        <p>Level of development</p>
+        <div class="container__radio">
+          <label>
+            <input
+              type="radio"
+              class="input-radio"
+              name="level"
+              value="Basic"
+            />
+            <span class="radio-style"></span>
+            Basic</label
+          >
+          <!-- тут id для примера -->
+          <label for="medium">
+            <input
+              id="medium"
+              class="input-radio"
+              type="radio"
+              name="level"
+              value="Medium"
+            />
+            <span class="radio-style"></span>
+            Medium</label
+          >
+          <label>
+            <input
+              type="radio"
+              class="input-radio"
+              name="level"
+              value="Advanced"
+            />
+            <span class="radio-style"></span>
+            Advanced</label
+          >
+        </div>
+        <p>Programming skills</p>
+        <div class="container__radio -checkbox">
+          <label> <input type="checkbox" /> Java</label>
+          <label> <input type="checkbox" /> Python</label>
+          <label> <input type="checkbox" /> JavaScript</label>
+        </div>
+        <button>SEND</button>
+      </div>
+    </main>
+  </body>
 </html>
