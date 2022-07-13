@@ -10,15 +10,21 @@ main {
 }
 /* left side */
 .section-startnow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 812px;
   width: 375px;
-  background: url(./pictures/simon-moog-t-DlFD2QZcw-unsplash\ 1.png) no-repeat;
   background-size: 100%;
   border-radius: 32px;
   color: #ffffff;
   position: relative;
-  margin: 5px;
+  overflow: hidden;
 }
-
+.cont-background {
+  position: absolute;
+  z-index: -1;
+}
 .container_title {
   padding: 73px 30px 0;
 }
@@ -35,7 +41,7 @@ main {
 .div-start_button {
   display: flex;
   justify-content: center;
-  margin: 482.5px 0 39.5px;
+  margin: 5px 0 40px;
 }
 .div-start_button button {
   background: #121212;
@@ -46,6 +52,7 @@ main {
   font-size: 16px;
   line-height: 19px;
   border: none;
+  margin: 5px;
 }
 /* При сжатии экрана проблемы */
 /* right side */
@@ -110,13 +117,13 @@ a {
   line-height: 19px;
   border: none;
 }
-p {
+.form__login {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
 }
-.-p-margin {
+._p-margin {
   margin: 35px 0 16px;
 }
 .div-cont_button_social {
