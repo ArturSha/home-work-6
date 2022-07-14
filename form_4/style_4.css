@@ -67,7 +67,7 @@ p {
   line-height: 24px;
   margin-bottom: 10px;
 }
-.container__radio {
+.container__form {
   margin: 15px 0;
   display: flex;
   justify-content: space-between;
@@ -86,7 +86,7 @@ p {
 .input-radio:checked + .radio-style {
   background-color: #5d5fef;
 }
-.container__radio label {
+.container__form label {
   color: #5d5fef;
   font-weight: 200;
   font-size: 20px;
@@ -95,6 +95,9 @@ p {
   padding: 14px 15px 7px 15px;
   border: 2px solid #dadada;
   border-radius: 5px;
+}
+.radio-style._checkbox {
+  border-radius: 0;
 }
 button {
   background-color: #5d5fef;
